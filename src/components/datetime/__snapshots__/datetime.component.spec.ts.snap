@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datetime.component.vue render 1`] = `
+<div class="row row--dense align-center">
+  <div class="col">
+    <div class="v-menu">
+      <div class="v-input v-input--is-readonly theme--light v-text-field">
+        <div class="v-input__prepend-outer">
+          <div class="v-input__icon v-input__icon--prepend"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar theme--light"></i></div>
+        </div>
+        <div class="v-input__control">
+          <div class="v-input__slot">
+            <div class="v-text-field__slot"><input role="button" aria-haspopup="true" aria-expanded="false" id="input-4" readonly="readonly" type="text"></div>
+          </div>
+          <div class="v-text-field__details">
+            <div class="v-messages theme--light">
+              <transition-group-stub tag="div" name="message-transition" class="v-messages__wrapper"></transition-group-stub>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="col">
+    <div class="v-input v-input--is-label-active theme--light v-text-field">
+      <div class="v-input__control">
+        <div class="v-input__slot">
+          <div class="v-text-field__slot"><input id="input-8" type="time"></div>
+        </div>
+        <div class="v-text-field__details">
+          <div class="v-messages theme--light">
+            <transition-group-stub tag="div" name="message-transition" class="v-messages__wrapper"></transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
